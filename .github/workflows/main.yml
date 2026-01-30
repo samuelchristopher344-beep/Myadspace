@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Welcome to My Website</h1>
+  <p>This site has useful content and ads to support it.</p>
+
+  <!-- Ad placeholder -->
+  <div class="ad">
+    <!-- Google AdSense code will go here -->
+  </div>
+
+  <a href="privacy.html">Privacy Policy</a>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+  <p>This website uses Google AdSense ads. We do not share your personal information with third parties.</p>
+  <a href="index.html">Home</a>
+</body>
+</html>
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #333;
+}
+
+.ad {
+  margin: 20px 0;
+  padding: 10px;
+  border: 2px dashed #aaa;
+  text-align: center;
+}
